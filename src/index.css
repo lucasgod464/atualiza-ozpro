@@ -1,0 +1,21 @@
+.admin-container {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .file-list {
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .file-item {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    .file-item:last-child {
+      border-bottom: none;
+    }
