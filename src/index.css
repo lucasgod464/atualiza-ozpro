@@ -1,14 +1,55 @@
-.admin-container {
+body {
       font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    .admin-container {
       padding: 20px;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .admin-header {
+      color: #5c67f2;
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .file-upload-section {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .file-input-label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #5c67f2;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .file-input-label:hover {
+      background-color: #4a53c9;
+    }
+
+    .file-input {
+      display: none;
     }
 
     .file-list {
       margin-top: 20px;
       border: 1px solid #ddd;
       padding: 10px;
+      border-radius: 5px;
     }
 
     .file-item {
@@ -18,4 +59,20 @@
 
     .file-item:last-child {
       border-bottom: none;
+    }
+
+    .upload-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #5c67f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .upload-button:hover {
+      background-color: #4a53c9;
     }
